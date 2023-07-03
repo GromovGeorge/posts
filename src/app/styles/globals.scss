@@ -1,0 +1,52 @@
+@import './normalize.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root {
+  --dark: #262626;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dark);
+
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+}
+
+.home-page,
+.posts-page,
+.post-page {
+  width: 1200px;
+  margin: 100px auto;
+}
+
+.add-post {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+// Animations
+.post-enter {
+  transform: translateX(-200%);
+}
+.post-enter-active {
+  transform: translateX(0);
+  transition: all 500ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  transform: translateX(-200%);
+  transition: all 500ms ease-in;
+}

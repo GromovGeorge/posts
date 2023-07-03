@@ -1,0 +1,26 @@
+.comment {
+  .userData {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .userAvatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 30px;
+      background-color: #b1b1b1;
+    }
+
+    .userEmail {
+      display: flex;
+      font-weight: 500;
+    }
+  }
+
+  .text {
+    margin: 20px 0;
+    padding-bottom: 20px;
+    color: #b1b1b1;
+    text-align: justify;
+    border-bottom: 1px solid #b1b1b1;
+  }
+}
