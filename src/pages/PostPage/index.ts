@@ -1,3 +1,3 @@
-import PostPage from './ui/PostPage'
+import PostPage from './PostPage'
 
 export { PostPage }
