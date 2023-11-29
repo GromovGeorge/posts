@@ -1,0 +1,16 @@
+.button {
+  color: teal;
+  font-size: 12px;
+  background: transparent;
+  border: 1px solid teal;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  width: 140px;
+  height: 48px;
+
+  &:hover {
+    color: #fff;
+    background-color: teal;
+  }
+}
