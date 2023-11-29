@@ -3,7 +3,6 @@ export interface Post {
   id: number
   title: string
   body: string
-  // sort?: string
 }
 
 export interface Comment {
