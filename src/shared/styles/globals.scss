@@ -1,0 +1,28 @@
+@import './normalize.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root {
+  --dark: #262626;
+}
+
+body {
+  width: 100%;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dark);
+
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+}
+
+.add-post {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+}
