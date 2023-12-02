@@ -2,7 +2,7 @@ import React from 'react'
 import { Post } from '../types'
 
 export const useDebounce = (callback: (...args: any[]) => void, delay: number = 1000) => {
-  const timer = React.useRef<number>()
+  const timer = React.useRef<NodeJS.Timeout>()
 
   const debouncedCallback = React.useCallback(
     (...args: any[]) => {
