@@ -4,28 +4,7 @@ import { useFetch, useSearchedPosts } from '../shared/hooks'
 import { getPageCount } from '../shared/libs'
 import { ApiService } from '../api'
 
-const PostContext = React.createContext<any>({
-  // posts: [] as Post[],
-  // setPosts: (post: Post) => {},
-  // filter: { sort: '', query: '' },
-  // setFilter: () => {},
-  // modal: false,
-  // setModal: () => {},
-  // limit: 10,
-  // setLimit: () => {},
-  // currentPage: 1,
-  // setCurrentPage: () => {},
-  // totalPages: 10,
-  // setTotalPages: () => {},
-  // fetchPosts: () => {},
-  // isPostsLoading: true,
-  // isPostsError: false,
-  // isLoading: true,
-  // isError: false,
-  // create: (post: Post) => {},
-  // remove: (post: Post) => {},
-  // changePage: (page: number) => {},
-})
+const PostContext = React.createContext<any>({})
 
 export const usePost = () => React.useContext(PostContext)
 
